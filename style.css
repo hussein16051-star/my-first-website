@@ -1,31 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+  background-color: #f0fdf4; /* Light green background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #166534;
+  padding: 40px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="./style.css">
+h1 {
+  text-align: center;
+  color: #14532d;
+  font-size: 2.5rem;
+}
 
-  </head>
-    
-  <body>
-  <h1>Growing Fresh Mint in Glasgow</h1>
+h2 {
+  border-bottom: 2px solid #bcf0da;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
 
-<img src="https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=400" alt="Mint in water">
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
 
-<h2>Propagating Mint</h2>
-<p>I enjoy gardening and rooting mint cuttings in water. This process is very simple and rewarding for anyone living in Glasgow. You only need a glass, some fresh water, and a healthy mint stem. First, remove the bottom leaves from your cutting. Then, place it in the water and wait for roots to appear.</p>
-
-<img src="https://images.unsplash.com/photo-1459156212016-c812468e2115?w=400" alt="Plant roots">
-
-<h2>My Simple Steps</h2>
-<ul>
-  <li>Cut a healthy mint stem.</li>
-  <li>Place stem in clean water.</li>
-  <li>Change water every two days.</li>
-  <li>Wait for roots to grow.</li>
-</ul>
-    
-  </body>
-  
-</html>
+ul {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
